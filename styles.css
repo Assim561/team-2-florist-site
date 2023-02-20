@@ -1,6 +1,7 @@
 #navbar {
     background-color: #498085;
     border-radius:30px;
+    height:90px;
 
 
 }
@@ -34,7 +35,7 @@
 #navbar a {
     text-decoration: none;
     color: #68caf8;
-    font-size:20px;
+    font-size:24px;
     font-family: arial;
 
 
@@ -42,7 +43,7 @@
 
 #navbar a:hover {
     text-decoration: none;
-    font-size: 21px;
+    font-size: 25px;
     color: #8E8E8E;
 
 
@@ -50,7 +51,7 @@
 
 #navbar a:active {
     text-decoration: none;
-    font-size: 21px;
+    font-size: 25px;
     color: black;
 
 
@@ -87,7 +88,7 @@ img {
     flex-direction:row;
     justify-content: space-between;
     align-items:center;
-    margin:60px;
+    margin:50px;
 
 
 
@@ -108,7 +109,14 @@ img {
 
 #footerplant {
     background-color: #101705;
-    height:20px;
+    
+
+
+}
+
+#footerplant footer{
+    background-color: #101705;
+    height:30px;
     width:100;
 
 
@@ -117,7 +125,7 @@ img {
 #footerplant ul {
     display:flex;
     flex-direction:row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items:center;
     list-style:none;
    
@@ -127,20 +135,28 @@ img {
 
 #footerplant a {
     text-decoration:none;
-    color:#8E8E8E;
+    color:#293512;
+    font-size:24px;
     
 
 
 }
 
 #footerplant a:hover {
-    text-decoration:overline;
+    text-decoration:underline;
     color:#fff;
     
 
 
 }
 
+#footerplant a:active {
+    text-decoration:underline;
+    color:#8E8E8E;
+    
+
+
+}
 
     
 
