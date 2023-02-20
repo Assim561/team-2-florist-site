@@ -176,20 +176,23 @@ img {
 #contactform {
     border-style:solid;
     border-color:#498085;
-    border-width: 10px;
+    border-width: 40px;
     display:flex;
     flex-direction:row;
     background-color: #68caf8;
-    padding:50px;
-    margin:100px;
+    padding:0px;
+    margin-left:200px;
+    margin-right:200px;
+    margin-bottom:50px;
     font-family:arial;
-    font-size:26px;
+    font-size:22px;
 
 
 }
 
 #contactform label {
     padding:20px;
+
 
 
 }
@@ -227,7 +230,7 @@ img {
 #contactsubject{
     display:flex;
     flex-direction:column;
-    padding:20px;
+    padding:50px;
 
 
 
@@ -235,6 +238,7 @@ img {
 
 #contactsubject textarea {
     height:300px;
+    margin-left:50px;
 
 
 
@@ -246,10 +250,10 @@ img {
     background-color:#498085;
     border-style:solid;
     color:white;
-    width:75px;
-    height:45px;
+    width:200px;
+    height:125px;
     border-radius:15px;
-    font-size: 14px;
+    font-size: 24px;
     transition:0.5s;
 
 
@@ -262,11 +266,12 @@ img {
     background-color:#498085;
     border-style:solid;
     color:white;
-    width:75px;
-    height:45px;
+    width:205px;
+    height:130px;
     border-radius:20px;
-    font-size: 16px;
+    font-size: 26px;
     transition:0.5s;
+    
 
 
 
@@ -278,12 +283,23 @@ img {
     background-color:#fff;
     border-style:solid;
     color:#498085;
-    width:75px;
-    height:45px;
-    border-radius:22px;
-    font-size: 16px;
-    transition:0.5s;
+    width:205px;
+    height:130px;
+    border-radius:24px;
+    font-size: 18px;
+    transition:0.2s;
 
+
+
+
+}
+
+#buttoncontainer {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
 
 
 
