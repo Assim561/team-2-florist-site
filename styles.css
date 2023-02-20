@@ -171,3 +171,120 @@ img {
 
 
 }
+
+
+#contactform {
+    border-style:solid;
+    border-color:#498085;
+    border-width: 10px;
+    display:flex;
+    flex-direction:row;
+    background-color: #68caf8;
+    padding:50px;
+    margin:100px;
+    font-family:arial;
+    font-size:26px;
+
+
+}
+
+#contactform label {
+    padding:20px;
+
+
+}
+
+
+#contactname {
+    display:flex;
+    flex-direction:row;
+    padding:20px;
+
+
+
+}
+
+#contactname {
+    display:flex;
+    flex-direction:row;
+    padding:20px;
+
+
+
+}
+
+
+
+#contactinfo {
+    display:flex;
+    flex-direction:row;
+    padding:20px;
+
+
+
+}
+
+#contactsubject{
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+
+
+
+}
+
+#contactsubject textarea {
+    height:300px;
+
+
+
+}
+
+
+#button {
+    border-color:#68caf8;
+    background-color:#498085;
+    border-style:solid;
+    color:white;
+    width:75px;
+    height:45px;
+    border-radius:15px;
+    font-size: 14px;
+    transition:0.5s;
+
+
+
+}
+
+
+#button:hover{
+    border-color:#8E8E8E;
+    background-color:#498085;
+    border-style:solid;
+    color:white;
+    width:75px;
+    height:45px;
+    border-radius:20px;
+    font-size: 16px;
+    transition:0.5s;
+
+
+
+
+}
+
+#button:active{
+    border-color:#8E8E8E;
+    background-color:#fff;
+    border-style:solid;
+    color:#498085;
+    width:75px;
+    height:45px;
+    border-radius:22px;
+    font-size: 16px;
+    transition:0.5s;
+
+
+
+
+}
