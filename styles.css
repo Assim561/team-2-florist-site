@@ -698,41 +698,9 @@ img:focus {
 
 }
 
-.brand {
-    font-style:italic;
-    font-weight:bold;
-    color: #293512;
-    font-size:30px;
-    font-family: arial;
-    text-decoration: none;
 
 
 
-}
-
-.brand:hover {
-    color:#101705;
-    font-size:30px;
-    font-family: arial;
-    text-decoration: none;
-    font-style:none;
-    font-weight:bold;
-
-
-}
-
-
-.brand:active {
-    font-style:italic;
-    font-weight:bold;
-    color: #293512;
-    font-size:30px;
-    font-family: arial;
-    text-decoration: none;
-
-
-
-}
 
 
 
@@ -748,6 +716,39 @@ img:focus {
 
 
 }
+
+#egreen{
+    height:60px;
+    width:60px;
+    margin-left: 10px;
+    border-radius: 50px;
+    box-shadow: -5px -10px 10px 2px black;
+    transition:0.5s;
+
+
+}
+
+#egreen:hover{
+    height:65px;
+    width:65px;
+    margin-left: 15px;
+    border-radius: 50px;
+    box-shadow: -5px -10px 10px 5px black;
+    transition:0.8s;
+
+}
+
+
+#egreen:active{
+    height:60px;
+    width:60px;
+    margin-left: 10px;
+    border-radius: 50px;
+    box-shadow: -5px -10px 10px 2px black;
+    transition:0.3s;
+
+}
+
 
 
 
@@ -1068,8 +1069,17 @@ img:focus {
 
         }
 
-
-
+        #egreen{
+            height:50px;
+            width:50px;
+            margin-left: 2px;
+            border-radius: 50px;
+            
+           
+        
+        
+        }
+       
 
 
 
