@@ -720,7 +720,7 @@ img:focus {
 #egreen{
     height:60px;
     width:60px;
-    margin-left: 10px;
+    margin-left: 15px;
     border-radius: 50px;
     box-shadow: -5px -10px 10px 2px black;
     transition:0.5s;
@@ -731,7 +731,7 @@ img:focus {
 #egreen:hover{
     height:65px;
     width:65px;
-    margin-left: 15px;
+    margin-left: 20px;
     border-radius: 50px;
     box-shadow: -5px -10px 10px 5px black;
     transition:0.8s;
@@ -742,7 +742,7 @@ img:focus {
 #egreen:active{
     height:60px;
     width:60px;
-    margin-left: 10px;
+    margin-left: 20px;
     border-radius: 50px;
     box-shadow: -5px -10px 10px 2px black;
     transition:0.3s;
