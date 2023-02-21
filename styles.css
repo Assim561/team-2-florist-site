@@ -247,12 +247,75 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============ JORDAN CSS ======================================================== */
+
+
+
 #navbar {
     top: 0;
     background-color: #498085;
     border-radius:30px;
-    height:90px;
+    height:50px;
     width:100;
+    position:sticky;
+    padding: 10px 0px; 
+    transition: 0.4s; 
+    width: 100%;
+    
 
 
 }
@@ -285,7 +348,7 @@
 
 }
 
-#navbar a {
+#navbar .page {
     text-decoration: none;
     color: #68caf8;
     font-size:24px;
@@ -294,7 +357,7 @@
 
 }
 
-#navbar a:hover {
+#navbar .page:hover {
     text-decoration: none;
     font-size: 25px;
     color: #8E8E8E;
@@ -302,10 +365,10 @@
 
 }
 
-#navbar a:active {
+#navbar .page:active {
     text-decoration: none;
     font-size: 25px;
-    color: black;
+    color: #101705;
 
 
 }
@@ -635,10 +698,56 @@ img:focus {
 
 }
 
+.brand {
+    font-style:italic;
+    font-weight:bold;
+    color: #293512;
+    font-size:30px;
+    font-family: arial;
+    text-decoration: none;
+
+
+
+}
+
+.brand:hover {
+    color:#101705;
+    font-size:30px;
+    font-family: arial;
+    text-decoration: none;
+    font-style:none;
+    font-weight:bold;
+
+
+}
+
+
+.brand:active {
+    font-style:italic;
+    font-weight:bold;
+    color: #293512;
+    font-size:30px;
+    font-family: arial;
+    text-decoration: none;
+
+
+
+}
+
+
+
+.contactp {
+    color: #8E8E8E;
+    text-align:center;
+    font-family: arial;
+    font-style:italic;
+    font-size: 24px;
 
 
 
 
+
+}
 
 
 
@@ -649,15 +758,17 @@ img:focus {
 @media screen and (max-width: 678px) {
     
 #navbar {
-        margin: 5;
+        margin: 0;
         background: #498085;
-        position: absolute;
-        right: 0;
+        position: fixed;
+        left: 0;
         top: 5px;
         width: 100%;
         justify-content: space-around;
         padding: 0;
         border-radius:30px;
+        font-size:10px;
+      
         
         }
 
@@ -945,7 +1056,24 @@ img:focus {
         
         }
 
+        .contactp {
+            color: #8E8E8E;
+            text-align:center;
+            font-family: arial;
+            font-style:italic;
+            font-size: 18px;
+            margin-top:100px;
+
+
+
+        }
+
+
+
+
+
 
         }
     
     
+
