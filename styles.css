@@ -15,8 +15,15 @@
     justify-content: center;
     align-items:center;
     margin-top: 50px;
-
+    
     }
+
+#index_logo img {
+    width: 20%;
+    border: 5px solid #101705
+
+
+}
 
 .egreen_summary {
     font-size: 24px;
