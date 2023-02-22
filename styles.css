@@ -1,7 +1,29 @@
+/* index */
 
 
+#exterior {
+ display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    margin-top: 50px;
+}
 
+#index_logo {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    margin-top: 50px;
 
+    }
+
+.egreen_summary {
+    font-size: 24px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
 
 
 
@@ -828,13 +850,7 @@ h2 {
 
 }
 
-#map {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 50px;
-}
+
 
 #map p {
     font-size: 20px;
