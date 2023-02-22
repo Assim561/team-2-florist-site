@@ -828,6 +828,16 @@ h2 {
 
 }
 
+#reviews {
+    display: flex;
+    flex-direction: column;
+    width:100;
+    background-color:#498085;
+   
+    padding: 5px;
+
+}
+
 #review1 {
     display: flex;
     flex-direction: row;
@@ -835,9 +845,214 @@ h2 {
     background-color:#498085;
     justify-content: center;
     align-items: flex-start;
-    padding
+   
+}
+
+#pchild1 {
+    background-color:#68caf8;
+    padding:5px;
+    border-style: outset;
+    border-width:8px;
+    border-color:#fff;
+    font-size:18px;
+    transition: 0.2s;
+}
+
+#pchild1 p {
+   
+
 
 }
+
+#pchild2 {
+    background-color:#68caf8;
+    padding:5px;
+    border-style: outset;
+    border-width:8px;
+    border-color:#fff;
+    font-size:18px;
+    transition: 0.2s;
+
+}
+
+#pchild2 p {
+
+
+}
+
+#pchild1:hover {
+    background-color:#68caf8;
+    padding:2px;
+    font-size:28px;
+    transition: 0.3s;
+}
+
+#pchild2:hover {
+    background-color:#68caf8;
+    padding:2px;
+    font-size:28px;
+    transition: 0.3s;
+}
+
+#review2 {
+    display: flex;
+    flex-direction: row;
+    width:100;
+    background-color:#498085;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+
+
+#pchild3 {
+    background-color:#68caf8;
+    padding:5px;
+    border-style: outset;
+    border-width:8px;
+    border-color:#fff;
+    font-size:18px;
+    transition: 0.2s;
+}
+
+#pchild3 p {
+   
+
+
+}
+
+#pchild4 {
+    background-color:#68caf8;
+    padding:5px;
+    border-style: outset;
+    border-width:8px;
+    border-color:#fff;
+    font-size:18px;
+    transition: 0.2s;
+
+}
+
+#pchild4 p {
+
+
+}
+
+#pchild3:hover {
+    background-color:#68caf8;
+    padding:2px;
+    font-size:28px;
+    transition: 0.3s;
+}
+
+#pchild4:hover {
+    background-color:#68caf8;
+    padding:2px;
+    font-size:28px;
+    transition: 0.3s;
+}
+
+
+#review3 {
+    display: flex;
+    flex-direction: row;
+    width:100;
+    background-color:#498085;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+
+
+#pchild5 {
+    background-color:#68caf8;
+    padding:5px;
+    border-style: outset;
+    border-width:8px;
+    border-color:#fff;
+    font-size:18px;
+    transition: 0.2s;
+}
+
+#pchild5 p {
+   
+
+
+}
+
+#pchild6 {
+    background-color:#68caf8;
+    padding:5px;
+    border-style: outset;
+    border-width:8px;
+    border-color:#fff;
+    font-size:18px;
+    transition: 0.2s;
+
+}
+
+#pchild6 p {
+
+
+}
+
+#pchild5:hover {
+    background-color:#68caf8;
+    padding:2px;
+    font-size:28px;
+    transition: 0.3s;
+}
+
+#pchild6:hover {
+    background-color:#68caf8;
+    padding:2px;
+    font-size:28px;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #map {
