@@ -70,6 +70,11 @@ h3 { font-size: var(--fs-h3)}
     margin-right: 50px;
     }
   
+.section__title {
+    align-items: center;
+    text-align: center;
+    position: center;
+}
 
 .section__subtitle {
     font-size: 25px;
