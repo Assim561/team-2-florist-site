@@ -828,6 +828,14 @@ h2 {
 
 }
 
+#map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
 #map p {
     font-size: 20px;
     color: #fff;
