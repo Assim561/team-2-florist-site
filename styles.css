@@ -1,6 +1,7 @@
 /* index */
 
 
+
 #exterior {
  display:flex;
     flex-direction:row;
@@ -442,9 +443,9 @@ h3 { font-size: var(--fs-h3)}
     border-radius:30px;
     height:50px;
     width:100;
-    position:sticky;
+    position:fixed;
     padding: 10px 0px; 
-    transition: 0.4s; 
+    transition: 0.7s; 
     width: 100%;
     
 
@@ -582,14 +583,14 @@ h2 {
 }
 
 #footerplant {
-    background-color: #101705;
+    background-color: #498085;
     
 
 
 }
 
 #footerplant footer{
-    background-color: #101705;
+    
     height:30px;
     width:100;
 

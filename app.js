@@ -6,12 +6,13 @@ function test() {
 
 
 
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-    document.getElementById("navbar").style.padding = "20px 10px";
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
   } else {
-    document.getElementById("navbar").style.padding = "10px 10px";
-     }
+    document.getElementById("navbar").style.top = "-500px";
+  }
+  prevScrollpos = currentScrollPos;
 }
